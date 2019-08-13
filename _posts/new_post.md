@@ -1,5 +1,6 @@
 ---
 published: true
+sitemap: true
 ---
 ## 2019 August
 
