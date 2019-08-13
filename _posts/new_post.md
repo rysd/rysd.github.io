@@ -1,4 +1,6 @@
 ---
+layout: post
+title: 2019 August
 published: true
 sitemap: true
 ---
