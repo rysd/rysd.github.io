@@ -1,39 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
     {% seo %}
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-
-    {% include analytics.html %}
-
   </head>
-
   <body>
+    {% include analytics.html %}
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
           <nav>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
       </div>
     </div>
-
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -41,6 +29,5 @@
         </footer>
       </div>
     </div>
-
   </body>
 </html>
