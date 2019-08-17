@@ -8,9 +8,6 @@ name:
 # Short bio or description (displayed in the header)
 description: 
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: 
-
 #
 # Flags below are optional
 #
@@ -22,8 +19,6 @@ url: https://rysd.github.io
 #
 # Don't change any of the following
 #
-
-permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
