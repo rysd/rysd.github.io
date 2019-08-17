@@ -3,7 +3,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
     <meta name="author" content="{{ site.name }}" />
     <meta property="og:locale" content="en_US">
-    <link rel="canonical" href="{{ site.baseurl }}{{ permalink }}">
+    <link rel="canonical" href="{{ site.url }}{{ permalink }}">
 
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
@@ -19,6 +19,6 @@
     {% endif %}
 
     <script type="application/ld+json">
-      {"@type":"WebSite","headline":"{{ page.title }}","url":"{{ site.baseurl }}{{ permalink }}","name":"{{ site.name }}","@context":"http://schema.org"}
+      {"@type":"WebSite","headline":"{{ page.title }}","url":"{{ site.url }}{{ permalink }}","name":"{{ site.name }}","@context":"http://schema.org"}
       /*{"@type":"WebSite","headline":"About","url":"https://rysd.github.io/about/","name":"rysd.github.io","@context":"http://schema.org"}*/
     </script>
